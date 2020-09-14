@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+}
+#intro_landing_page_first_part{
+    background-image: url(https://res.cloudinary.com/g31ssa/image/upload/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png) ;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    object-fit: cover;
+    padding: 20px 0px;
+
+}
+#first_content{
+    background-color: RGBA(256, 256, 256, 0.5);
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:100px ;
+    margin-bottom: 100px;
+}
+.name_of_app{
+    font-size: 70px;
+    color: #ffffff;
+}
+.slogan{
+    color:#ffffff;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#description_intro{
+    color:#ffffff;
+    font-size: 26px ;
+}
