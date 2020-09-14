@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Project Link
-- [Link](https://docs.google.com/spreadsheets/d/1MiYUM5Rr0hr_9kbYVNgYzxu88jngsMA9udl1Ox-z7Vw/edit#gid=0)
+- [Link]()
 
 ## Project Schedule
 
@@ -40,8 +40,7 @@ https://res.cloudinary.com/g31ssa/image/upload/v1600060830/nonuser-mobile_mkgkqu
 
 ## Time/Priority Matrix 
 
-- [MVP]()
-- [PostMVP]()
+- [Matrix](https://res.cloudinary.com/g31ssa/image/upload/v1600064287/PRIORITY_MATRIX-Frontend_ascxiu.pdf)
 
 ### MVP/PostMVP - 5min
 
