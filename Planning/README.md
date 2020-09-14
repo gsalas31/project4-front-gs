@@ -40,7 +40,7 @@ https://res.cloudinary.com/g31ssa/image/upload/v1600060830/nonuser-mobile_mkgkqu
 
 ## Time/Priority Matrix 
 
-- [Matrix](https://res.cloudinary.com/g31ssa/image/upload/v1600064287/PRIORITY_MATRIX-Frontend_ascxiu.pdf)
+- [Matrix](https://res.cloudinary.com/g31ssa/image/upload/v1600071245/frontend_bvji3k.png)
 
 ### MVP/PostMVP - 5min
 
