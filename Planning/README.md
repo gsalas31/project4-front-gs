@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Project Link
-- [Link]()
+- [Link](https://docs.google.com/spreadsheets/d/1MiYUM5Rr0hr_9kbYVNgYzxu88jngsMA9udl1Ox-z7Vw/edit#gid=0)
 
 ## Project Schedule
 
@@ -49,11 +49,10 @@ https://res.cloudinary.com/g31ssa/image/upload/v1600060830/nonuser-mobile_mkgkqu
 - Make hamburger menu
 - Make it responsive to different screen sizes (mobile, tablet, and desktop)
 - Render API on frontend application
-- 
-- 
-- 
-- 
-- 
+- Modal for comments
+- Buttons
+- Deployment
+
 
 #### PostMVP 
 - Adding Social Media Icons
@@ -67,36 +66,40 @@ https://res.cloudinary.com/g31ssa/image/upload/v1600060830/nonuser-mobile_mkgkqu
 
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: | :---: |
-| 1 | Wireframing | H | 5hr | 5hr |
+| 1 | Wireframing | H | 5hr | 4hr |
 | 2 | Hamburger Menu | H | 1hr |  |
-| 3 | Landing Page/ Login-Signup / User and non-user/ Editor's HTML | H | 4hrs | 3hr |
-| 4 | Landing CSS | H | 3hr | 1hr |
-| 5 | Non-user CSS | H | 2hrs | 1hr |
-| 6 | User CSS | H | 3hrs | 2hr |
-| 7 | Editors CSS | H | 4hrs | 4hr |
-| 8 | Login/signup CSS | H | 3hrs | 4hr |
-| 9 | Comments Modal CSS + HTML | M | 5hr | 4hr |
+| 3 | Landing Page/ Login-Signup / User and non-user/ Editor's HTML | H | 4hrs | 2hr |
+| 4 | Landing CSS | H | 3hr | hr |
+| 5 | Non-user CSS | H | 2hrs | hr |
+| 6 | User CSS | H | 3hrs | hr |
+| 7 | Editors CSS | H | 4hrs | hr |
+| 8 | Login/signup CSS | H | 4hrs | hr |
+| 9 | Comments Modal CSS + HTML | M | 1hr | hr |
 | 10 | Vue Research | H | 7hrs |  |
-| - | Total | - | 104.5hrs | 107.5hrs |
+| 11 | Buttons | H | 3hrs |  |
+| 12 | Modal for comments | H | 2hrs |  |
+| - | Total | - | 39hrs | hrs |
 
 
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: | :---: |
-| A | Login HTML/CSS Debugging | H | 1.5hr| 3hr |
-| B | Landing Page HTML/CSS Debugging | H | 1hr| .5hr |
-| C | User and Non-User HTML/CSS Debugging | H | 1.5hr| 3hr |
-| D | Editor's page HTML/CSS Debugging | H | 2hr| 4hr |
-| E | Testing | H | 2hrs | 2hr |
-| F | Deployment | H | 1hrs| .5hr |
-| - | Total | - | 104.5hrs | 107.5hrs |
+| A | Login HTML/CSS Debugging | H | 3hr| hr |
+| B | Landing Page HTML/CSS Debugging | H | 3hr| hr |
+| C | User and Non-User HTML/CSS Debugging | 4H | hr| hr |
+| D | Editor's page HTML/CSS Debugging | H | 3hr| hr |
+| E | Testing | 2H | hrs | hr |
+| F | Deployment | 4H | hrs| hr |
+| - | Total | - | 19hrs | hrs |
+
+total: 58hrs
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| A | Hover effect | L | hr | hr |
-| B | Social media icons | L | hrs | hr |
-| C | Add button shadow effects | L | hrs | hr |
-| - | Total | - | 16hrs | 2hrs |
+| A | Hover effect | L | 1hr | hr |
+| B | Social media icons | L | 3hrs | hr |
+| C | Add button shadow effects | L | 3hrs | hr |
+| - | Total | - | 7hrs | 2hrs |
 
 ## Additional Libraries
 - [Vue](https://vuejs.org)
