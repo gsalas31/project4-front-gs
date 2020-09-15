@@ -8,13 +8,27 @@
     crossorigin="anonymous" defer></script>
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="hamburger.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-
+    <nav class="menu-container">
+        <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Login / Sign in</a></li>
+                    <li><a href="#">Sign Out</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
     </nav>
+
     <div id="main_container">
         <div id="container_login_form">
             <h1 class="name_of_app_login">Fantasy Foami</h1>

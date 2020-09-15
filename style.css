@@ -114,7 +114,14 @@ h2{
 
 
 
+
+
 /* Editing LOGIN/SIGNUP Page */
+
+
+#main_container{
+    margin-top: 60px;
+}
 #container_login_form, #container_sigup_form{
     display: flex;
     flex-direction: column;
@@ -149,7 +156,6 @@ input{
     border-radius: 6px;
     border: none;
 }
-
 /* SIGN UP-------------------------------------------------- */
 #container_sigup_form{
     margin-top: 20px;
@@ -160,6 +166,7 @@ input{
     text-align: center;
     margin-bottom: 10px;
     font-size: 30px;
+    margin-top: 20px;
 }
 #h3_signup{
     color: white;
@@ -170,6 +177,7 @@ input{
 #image_back_signup_container{
     background-image:url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,w_760/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
 #terms{
     color:white;
@@ -178,4 +186,47 @@ input{
     width:180px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+
+/* Edition USER PAGE */
+#decorative_image{
+    background-image:url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,w_1800/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png);
+    height: 160px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#h2_shopping{
+    color:#232653;
+    font-size: 26px;
+    margin:10px;
+}
+li{
+    width:260px;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#school{
+    background-color: #AC88BF;
+}
+#home{
+    background-color: #9DB7C7;
+}
+#christmas{
+    background-color: #D2618C;
+}
+#birthday{
+    background-color:#F7E0F4 ;
+}
+#other{
+    background-color: #232653;
+    margin-bottom: 20px;
 }
