@@ -206,6 +206,10 @@ h2{
         width: auto;
         margin: 0px 10px;
     }
+    .menu-container{
+        position: fixed;
+        width: 100%;
+    }
 }
 
 
