@@ -231,7 +231,7 @@ h2{
 
 
 #main_container{
-    margin-top: 60px;
+    margin-top: 140px;
 }
 #container_login_form, #container_sigup_form{
     display: flex;
@@ -350,8 +350,6 @@ input{
 
 
 
-
-
 /* Editing USER PAGE */
 #decorative_image{
     background-image:url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,w_1800/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png);
@@ -359,6 +357,7 @@ input{
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 100px;
 }
 #h2_shopping{
     color:#232653;
@@ -391,6 +390,41 @@ li{
     background-color: #232653;
     margin-bottom: 20px;
 }
+
+/* MEDIA QUERIES USER PAGER */
+@media (min-width:415px) {
+    li{
+        width:360px;
+    }
+}
+
+@media (min-width:620px) {
+
+
+}
+
+@media (min-width:620px) {
+    li{
+        width:260px;
+        height: 50px;
+    }
+    #options_products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #school, #home, #other, #christmas, #birthday {
+       padding:15px; 
+       margin: 25px;
+       font-size: 20px;
+
+    }
+}
+
+
+
+
+
 
 
 
