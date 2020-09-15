@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -11,26 +17,29 @@
     </nav>
     <div id="main_container">
         <div id="container_login_form">
-            <h1 class="name_of_app">Fantasy Foami</h1>
-            <h3>Please login or sign-up for an account</h3>
+            <h1 class="name_of_app_login">Fantasy Foami</h1>
+            <h3 id="h3_login">Please login or sign-up for an account</h3>
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="email" required>
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-            <button>LOG IN</button>
+            <button id="button_login">LOG IN</button>
         </div>
-        <div id="container_sigup_form">
-            <h2>SIGN UP</h2>
-            <h3>Already have an account? Sign-in</h3>
-            <label for="full_name"><b>Full Name</b></label>
-            <input type="text" name="full_name" required>
+        <div id="image_back_signup_container">
+            <div id="container_sigup_form">
+                <h2 id="h2_signup">Sign Up</h2>
+                <h3 id="h3_signup">Already have an account? Sign-in</h3>
+                <label for="full_name"><b>Full Name</b></label>
+                <input type="text" name="full_name" required>
 
-            <label for="email"><b>Email</b></label>
-            <input type="text" name="email" required>
+                <label for="email"><b>Email</b></label>
+                <input type="text" name="email" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Must be at least 6 characters" name="psw" required>
-            <p>By continuing you agree to accept our Privacy Policy and Terms of Service</p>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Must be at least 6 characters" name="psw" required>
+                <button id="button_login">SIGN UP</button>
+                <p id="terms">By continuing you agree to accept our Privacy Policy and Terms of Service</p>
+            </div>
         </div>
     </div>
 </body>

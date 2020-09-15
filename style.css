@@ -2,6 +2,10 @@ body{
     margin:0;
     padding:0;
 }
+nav{
+    height: 60px;
+    background-color: #232653;
+}
 #intro_landing_page_first_part{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png) ;
     width: 100%;
@@ -59,7 +63,7 @@ h2{
     flex-direction: column-reverse;
 }
 #characteristic_one, #characteristic_two{
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 20px;
     border-radius: 10px;
@@ -106,4 +110,72 @@ h2{
     border-radius: 10px;
     color: #ffffff;
     background-color:#AC88BF ;
+}
+
+
+
+/* Editing LOGIN/SIGNUP Page */
+#container_login_form, #container_sigup_form{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* LOGIN --------------------------------------------------- */
+.name_of_app_login{
+   color:#232653;
+   text-align: center;
+   margin-bottom: 10px;
+}
+#h3_login{
+    color: #9DB7C7;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0px;
+}
+label{
+    margin: 10px 0px;
+    color:#232653;
+}
+input{
+    padding:8px;
+    margin-bottom: 10px;
+}
+#button_login{
+    padding:8px;
+    background-color: #232653;
+    color:white;
+    border-radius: 6px;
+    border: none;
+}
+
+/* SIGN UP-------------------------------------------------- */
+#container_sigup_form{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#h2_signup{
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+#h3_signup{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0px;
+}
+#image_back_signup_container{
+    background-image:url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,w_760/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png);
+    background-position: center;
+}
+#terms{
+    color:white;
+    font-size: 10px;
+    text-align: center;
+    width:180px;
+    margin-left: auto;
+    margin-right: auto;
 }
