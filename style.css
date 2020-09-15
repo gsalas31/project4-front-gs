@@ -359,6 +359,7 @@ input{
     background-repeat: no-repeat;
     margin-top: 100px;
 }
+
 #h2_shopping{
     color:#232653;
     font-size: 26px;
@@ -390,34 +391,23 @@ li{
     background-color: #232653;
     margin-bottom: 20px;
 }
+#options_products{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* MEDIA QUERIES USER PAGER */
-@media (min-width:415px) {
-    li{
-        width:360px;
-    }
-}
-
-@media (min-width:620px) {
-
-
-}
-
-@media (min-width:620px) {
-    li{
-        width:260px;
-        height: 50px;
-    }
+ @media (min-width:570px) {
     #options_products{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        height: 35px;
+        list-style-type: none;
     }
-    #school, #home, #other, #christmas, #birthday {
-       padding:15px; 
-       margin: 25px;
-       font-size: 20px;
-
+    #home, #other, #birthday, #christmas, #school{
+        margin: 28px;
     }
 }
 
