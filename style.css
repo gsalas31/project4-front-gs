@@ -43,7 +43,7 @@ nav{
     color:#ffffff;
     font-size: 16px ;
 }
-/* SECOND PART------------------------------------------------------------- */
+/* SECOND PART------- */
 #intro_sencond_part{
     display:flex;
     flex-direction: column;
@@ -93,7 +93,7 @@ h2{
     padding:10px;
     background-repeat: no-repeat;
 }
-/* --FOOTER---------------------------------------------------------------- */
+/* --FOOTER-------------*/
 #landing_page{
     background-color: #232653;
     height: 180px;
@@ -111,6 +111,76 @@ h2{
     color: #ffffff;
     background-color:#AC88BF ;
 }
+/* MEDIA QUERIES FOR LANDING PAGE------ */
+@media (min-width:499px) {
+    #first_content{
+        width:490px
+    }
+    .name_of_app{
+        font-size: 50px;
+    }
+    .slogan{
+        font-size: 30px;
+    }
+    #description_intro{
+        font-size: 20px;
+    }
+    .second_part_benefits{
+        flex-direction: row;
+
+    }
+    #second{
+        flex-direction: row;
+        align-items: center;
+    }
+    #characteristic_one{
+        margin-right: 30px;
+        width: 300px;
+    }
+    #characteristic_two{
+        margin-left: 30px;
+        width: 300px;
+        height: 140px;
+    }
+    #footer_paragraph{
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    #button_landing_page{
+        width:120px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+}
+@media (min-width:769px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
