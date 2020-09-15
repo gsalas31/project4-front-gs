@@ -191,7 +191,7 @@ input{
 
 
 
-/* Edition USER PAGE */
+/* Editing USER PAGE */
 #decorative_image{
     background-image:url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,w_1800/v1600108797/Screen_Shot_2020-09-14_at_2.39.30_PM_wvwi6p.png);
     height: 160px;
@@ -229,4 +229,14 @@ li{
 #other{
     background-color: #232653;
     margin-bottom: 20px;
+}
+
+
+
+
+/* Editing SUBSCRIBER */
+#subs-h2{
+    color:#232653;
+    font-size: 26px;
+    margin:10px;
 }
